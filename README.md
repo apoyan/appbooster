@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'appbooster-server'
+
+AppBooster::HTTPServer.run('127.0.0.1', 4000)
+```
 
 ## Development
 
